@@ -19,6 +19,7 @@ html {
   box-sizing: border-box;
 }
 
+/* Creo que era un error, agregar un : para el uso de before y after */
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -76,7 +77,7 @@ a.button, button, input[type="button"] {
   font-size:2rem;
 }
 
-:focus {
+.wrapper:focus {
   outline-color: var(--pink);
 }
 
